@@ -35,5 +35,5 @@ ShopItemClass.propTypes = {
   description: PropTypes.string,
   descriptionFull: PropTypes.string,
   currency: PropTypes.string,
-  price: PropTypes.string,
+  price: PropTypes.number,
 };
