@@ -30,10 +30,12 @@ export default class ShopItemClass extends React.Component {
 }
 
 ShopItemClass.propTypes = {
-  brand: PropTypes.string,
-  title: PropTypes.string,
-  description: PropTypes.string,
-  descriptionFull: PropTypes.string,
-  currency: PropTypes.string,
-  price: PropTypes.number,
+  item: PropTypes.shape({
+    brand: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string,
+    descriptionFull: PropTypes.string,
+    currency: PropTypes.string,
+    price: PropTypes.number,
+  }),
 };
